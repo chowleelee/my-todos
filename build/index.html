@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="msg">
+    <span class="msg-content"></span>
+    <span class="anchor confirmed">知道了</span>
+</div>
+<video class="alerter" src="music/alert.mp3"></video>
+<div class="container">
+    <h2 class="title">My Todo</h2>
+    <form class="add">
+        <input type="text">
+        <input type="submit" value="提交">
+    </form>
+    <div class="content">
+        <ul class="list">
+            <!--<li>
+                <div class="left">
+                    <input type="checkbox" class="checkbox">
+                    <span>66666666666666666666</span>
+                </div>
+                <div class="right">
+                    <span class="delBtn">删除</span>
+                    <span class="infoBtn">详情</span>
+                </div>
+            </li>-->
+        </ul>
+        <div class="info">
+            <h2></h2>
+            <input type="text" style="display: none;">
+            <textarea></textarea>
+            <input type="datetime-local" id="timepicker">
+            <br/>
+            <button class="update">更新</button>
+        </div>
+        <div class="alert">
+            <p>确定要删除吗？</p>
+            <button class="yes">确定</button>
+            <button class="no">取消</button>
+        </div>
+        <div class="mask"></div>
+    </div>
+</div>
+</body>
+</html>
+<script src="lib/jquery/dist/jquery.js"></script>
+<script src="lib/store2/dist/store2.js"></script>
+<script src="js/index.js"></script>

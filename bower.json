@@ -1,0 +1,20 @@
+{
+  "name": "15622",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "store2": "store#^2.5.1"
+  },
+  "devDependencies": {
+    "jquery": "^3.2.1"
+  }
+}
